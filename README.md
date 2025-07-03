@@ -69,6 +69,8 @@ Accuracy on validation set: `~xx%` (Replace with your real value)
 > Built with ✨love, code, and chaos✨ during the CodSoft internship.
 
 Let’s connect!  
-📫 [LinkedIn](#) (Add your link)  
-📧 [Email](mailto:yourname@example.com)
+📫 [LinkedIn](#)(www.linkedin.com/in/sai-charan-neerudu
+
+)  
+📧 [Email]( mailto:neerudusaicharan042@gmail.com)
 
