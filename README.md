@@ -1,22 +1,22 @@
-# 🎬 Movie Genre Classifier (Machine Learning Project)
+#Movie Genre Classifier (Machine Learning Project)
 
-This is a machine learning project built during my **CodSoft Internship** to classify the genre of movies based on their plot descriptions.
+It's a machine learning project developed during my **CodSoft Internship** to predict the genre of movies from their plot descriptions.
 
-It uses **text classification techniques** like TF-IDF and Logistic Regression to train a predictive model, and applies it to unseen movie summaries.
+It employs **text classification methods** such as TF-IDF and Logistic Regression to train a model, and uses it on unseen movie summaries.
 
 ---
 
-## 🚀 What This Project Does
+##What This Project Does
 
 - Loads a dataset of movie plot summaries
-- Converts text into numbers using **TF-IDF**
+- Transforms text to numbers using **TF-IDF**
 - Trains a **Logistic Regression model**
-- Predicts genres for new, unseen movie descriptions
-- Saves the results in a CSV file (`test_predictions.csv`)
+- Makes predictions for new, unseen movie descriptions
+- Saves the predictions to a CSV file (`test_predictions.csv`)
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 - Python
 - Pandas, NumPy
@@ -26,47 +26,48 @@ It uses **text classification techniques** like TF-IDF and Logistic Regression t
 
 ---
 
-## 📂 Files in This Repo
+## Files in This Repo
 
 | File | Description |
 |------|-------------|
-| `moviegenre.ipynb` | Main notebook with all 10 steps (from loading to prediction) |
+| `moviegenre.ipynb` | Principal notebook with all 10 steps (from loading to prediction) |
 | `train_data.txt` | Dataset with descriptions + genres |
-| `test_data.txt` | Dataset with new descriptions (no genres) |
-| `test_predictions.csv` | Final output with predicted genres |
-| `genre_model.pkl` | Trained Logistic Regression model |
-| `genre_vectorizer.pkl` | Saved TF-IDF vectorizer |
+| `test_data.txt` | New data set with descriptions (without genres) |
+| `test_predictions.csv` | End output with predicted genres |
+| `genre_model.pkl` | Learned Logistic Regression model |
+| `genre_vectorizer.pkl` | Stored TF-IDF vectorizer |
 
 ---
 
-## 📈 Model Accuracy
+## Model Accuracy
 
-Accuracy on validation set: `~xx%` (Replace with your real value)
-
----
-
-## 💾 How to Run This Project
-
-1. Upload `train_data.txt` and `test_data.txt` to your Jupyter environment
-2. Open and run `moviegenre.ipynb` cell by cell
-3. Final predictions will be saved in `test_predictions.csv`
-4. You can view the output in Excel or any CSV viewer
+Accuracy over validation set: 57.93 %
+    
 
 ---
 
-## 💡 Future Ideas
+## How to Run This Project
 
-- Use a deep learning model (e.g., LSTM)
-- Handle multi-label genres
-- Add more features like director, cast, etc.
-- Deploy the model as a web app using Streamlit or Flask
+1. Upload `train_data.txt` and `test_data.txt` into your Jupyter environment
+2. Open and execute `moviegenre.ipynb` cell by cell
+3. Final prediction will be saved in `test_predictions.csv`
+4. You can see the output either in Excel or any CSV reader
 
 ---
 
-## 👩‍💻 Made by Cherry 🍒
+## Future Plans
 
-> Engineering student. Aspiring entrepreneur. Machine learning enthusiast.  
-> Built with ✨love, code, and chaos✨ during the CodSoft internship.
+- Employ a deep learning model (e.g., LSTM)
+- Process multi-label genres
+- Include additional features such as director, cast, etc.
+- Host the model as a web application using Streamlit or Flask
+
+---
+
+##  Made by Cherry 🍒
+
+> Engineering student. Dreaming entrepreneur. Machine learning fanatic.
+> Made with ✨love, code, and chaos✨ during the CodSoft internship.
 
 Let’s connect!  
 📫 [LinkedIn]( www.linkedin.com/in/sai-charan-neerudu)  
